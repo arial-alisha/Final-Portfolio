@@ -23,5 +23,9 @@
  }
 
 header {
-  background-color: red;
+  background-color: grey;
+ }
+
+ .nav a:hover {
+  background-color:  white;
  }
