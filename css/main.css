@@ -5,6 +5,23 @@
 @viewport {width:device-width; scale: 1; }
 
 .nav {
-  display:  block;
   text-align: right;
+  padding: .5em;
+  border-radius:  4px;
+ }
+
+.nav ul {
+  list-style-type: none;
+ }
+
+.nav a {
+  display:  inline-block;
+  text-decoration: none;
+  padding: .5em;
+  font-family: sans-serif;
+  color: purple;
+ }
+
+header {
+  background-color: red;
  }
