@@ -4,6 +4,9 @@
 @-webkit-viewport {width:device-width; scale: 1; }
 @viewport {width:device-width; scale: 1; }
 
+body {
+  margin:  0;
+}
 .nav {
   text-align: right;
   padding: .5em;
@@ -19,13 +22,35 @@
   text-decoration: none;
   padding: .5em;
   font-family: sans-serif;
-  color: purple;
+  color: rgb(230,230,230);
  }
 
 header {
-  background-color: grey;
+  background-color: #642962;
+  padding: 0;
+  color: white;
  }
 
  .nav a:hover {
-  background-color:  white;
+  color: white;
+  text-decoration: underline;
+
  }
+
+ .logo {
+    width: 10em;
+    height: auto;
+    float: left;
+    vertical-align: center;
+    padding-left: 2em;
+    padding-top:  1em;
+    fill: rgb(230,230,230)
+  }
+
+.logo:hover {
+  fill: white;
+}
+
+.cls2:hover {
+  fill: white;
+}
