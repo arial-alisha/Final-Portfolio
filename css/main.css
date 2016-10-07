@@ -108,14 +108,37 @@ header {
 }
 
 .box-1 {
-  float: left;
-  padding: 0.5em;
+  /* padding: 0.5em; */
 }
 
 .image-6 {
   /* display: flex; (css-tricks flex-box)*/
-  width: 100vw;
+
  }
+
+ .lol {
+  /* this won't work on all browsers */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+ }
+
+ .lol .box-1 {
+  /* this won't work on all browsers */
+  margin: 3px;
+  flex: 1 0 32.333333%;
+  /* background: url('http://placehold.it/250x250') no-repeat;
+  background-size: cover;
+  background-position: center; */
+ }
+
+ .lol .box-1 img {
+  width: 100%;
+  display: block;
+ }
+
 
  .intro {
   width: 50%;
