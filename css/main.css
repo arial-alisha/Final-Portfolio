@@ -113,10 +113,10 @@ header {
 }
 
 .image-6 {
-  width: 100%;
+  /* display: flex; (css-tricks flex-box)*/
+  width: 100vw;
  }
 
  .intro {
   width: 50%;
  }
-
