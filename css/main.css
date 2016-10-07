@@ -153,20 +153,26 @@ h1 {
 
 }
 
-.intro {
-  width: 50%;
-  margin-left: 1em;
+.top {
+  width: 100%;
+ }
+
+ .top div {
+  flex: 0 0 50%;
+ }
+
+.top {
   display:  flex;
   flex-direction: row;
-  display: inline-block;
+  flex-wrap: wrap;
 }
 
 .dog {
-  width:  50%;
-  display:  flex;
+  width:  49%;
+  /*display:  flex;
   flex-direction: row;
   display: block;
-  display: inline-block;
+  display: inline-block;*/
 }
 
 h2 {
