@@ -9,6 +9,7 @@ html {
 }
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 
 .nav {
@@ -255,4 +256,32 @@ footer {
 
 .portfoliopages {
   padding: .5em;
+}
+
+.dropdown {
+  background-color: #642962;
+  color: white;
+  text-align: center;
+  padding: .5em;
+  font-size: 1.5em;
+}
+
+.borders {
+    border-style: solid;
+    border-bottom: 1px;
+}
+
+.aboutr {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.aboutf {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.descrip {
+  margin-right: 3em;
+  margin-left: 3em;
 }
