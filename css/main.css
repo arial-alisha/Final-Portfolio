@@ -46,7 +46,7 @@ header {
     vertical-align: center;
     padding-left: 2em;
     padding-top:  1em;
-    fill: rgb(230,230,230)
+    fill: rgb(230,230,230);
   }
 
 .logo:hover {
@@ -94,10 +94,6 @@ header {
     margin-left: 5%;
 }
 
-.branding {
-
-}
-
 .portfoliomain {
   width: 100%;
 }
@@ -139,40 +135,52 @@ header {
   display: block;
  }
 
+.intro-6 {
 
- .intro {
-  width: 50%;
+  max-width: 25em;
  }
 
-h1 {
-  font-size: 8em;
-  margin-top: 0;
-  margin-bottom:  0;
-  margin-left: .08em;
-  color: grey;
-
-}
-
-.top {
+ .intro {
   width: 100%;
  }
 
+h1 {
+  font-size: 4em;
+  margin-top: 0;
+  margin-bottom:  0;
+  color: grey;
+  color: #642962;
+}
+
  .top div {
-  flex: 0 0 50%;
+  flex: 0 0 40%;
+  flex-grow: 1;
+ }
+
+ .dogdiv {
+  text-align: center;
  }
 
 .top {
-  display:  flex;
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  max-width: 100em;
+  width: 100%;
+  padding: 0 2em 2em 2em;
 }
 
 .dog {
-  width:  49%;
+  width:  23em;
   /*display:  flex;
   flex-direction: row;
   display: block;
   display: inline-block;*/
+  vertical-align:  center;
+  padding-top: 3%;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
 }
 
 h2 {
@@ -180,8 +188,10 @@ h2 {
   margin-top: 0;
   margin-bottom: 0;
   vertical-align:  center;
-  text-align:  center;
+  text-align:  left;
   color: grey;
+  padding-left: .5em;
+  color: #642962;
 }
 
 .email {
@@ -200,3 +210,49 @@ footer {
   font-size: 2.5em;
   padding-top: .5em;
  }
+
+.arrow-1 {
+  position: absolute;
+  left: .5em;
+  width: 10%;
+  max-width: 5em;
+  top: 40%;
+ }
+
+ .arrow-2 {
+  position: absolute;
+  width: 10%;
+  max-width: 5em;
+  top: 40%;
+  right: .5em;
+  }
+
+ .portfolio {
+  position: relative;
+  }
+
+.contact {
+  text-align: center;
+  padding: .2em;
+ }
+
+.outro {
+  padding: 0 18%;
+  max-width: 28em;
+  margin: auto;
+ }
+
+.objective {
+  float: left;
+  width: 50%;
+
+}
+
+.solution {
+  float: right;
+  width: 50%;
+}
+
+.portfoliopages {
+  padding: .5em;
+}
