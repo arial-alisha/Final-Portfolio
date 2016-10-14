@@ -244,14 +244,14 @@ footer {
  }
 
 .objective {
-  float: left;
-  width: 50%;
-
+  flex: 0 0 45%;
+  padding: 0 1em;
 }
 
 .solution {
-  float: right;
-  width: 50%;
+  flex: 0 0 45%;
+  padding: 0 1em;
+  border-left: 1px solid #000;
 }
 
 .portfoliopages {
@@ -267,8 +267,12 @@ footer {
 }
 
 .borders {
-    border-style: solid;
-    border-bottom: 1px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #000;
 }
 
 .aboutr {
