@@ -304,3 +304,9 @@ footer {
 .port-1 {
   width: 100%;
 }
+
+.vidya {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
