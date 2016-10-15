@@ -295,8 +295,8 @@ footer {
 }
 
 .processcontent {
-  margin-right: 4em;
-  margin-left: 4em;
+  padding-right: 4em;
+  padding-left: 4em;
   max-width: 60em;
   margin: 0 auto;
 }
