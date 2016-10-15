@@ -289,3 +289,18 @@ footer {
   margin-right: 3em;
   margin-left: 3em;
 }
+
+.finalp {
+  width: 100%;
+}
+
+.processcontent {
+  margin-right: 4em;
+  margin-left: 4em;
+  max-width: 60em;
+  margin: 0 auto;
+}
+
+.port-1 {
+  width: 100%;
+}
